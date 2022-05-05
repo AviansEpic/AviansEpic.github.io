@@ -1,0 +1,44 @@
+h1 {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+text {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(199, 193, 193);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
