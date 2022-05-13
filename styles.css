@@ -1,6 +1,5 @@
 h1 {
-    color: #fff;
-    background-color: #000;
+    color: #000;
     padding: 10px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -35,17 +34,7 @@ body {
     animation: gradient 15s ease infinite;
 }
   
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+
 
 .discord, .github, .rick {
     background-color: #4CAF50;
@@ -82,4 +71,12 @@ body {
     padding: 20px;
     top: 20%;
     size: 30px;
+}
+
+.particles-js {
+    position: absolute;
+}
+
+.normalstuff {
+    z-index: 9;
 }
