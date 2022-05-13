@@ -65,11 +65,10 @@ body {
 
 .friends {
     position: absolute;
-    background-color: #00ff00;
+    background-color: #4CAF50;
     color: white;
-    border-color: #00ff00;
-    padding: 20px;
-    top: 20%;
-    size: 30px;
+    border-color: #4CAF50;
+    top: 0%;
 }
+
 
