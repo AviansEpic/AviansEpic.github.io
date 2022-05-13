@@ -1,36 +1,85 @@
-<html lang="en">
-<head>
-    <meta content="Avian's Site" property="og:title" />
-    <meta content="avian's cool site" property="og:description" />
-    <meta content="https://avian.lol/" property="og:url" />
-    <meta content="#7a00b3" data-react-helmet="true" name="theme-color" />
-    <meta property="og:image" content="https://www.avian.lol/image.gif">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Avian's Site</title>
-    <link rel="stylesheet">
-    <href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet">
-    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.cs">
-    <integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <button class="discord" onclick="window.location.href='https://discord.com/users/479447486881071106'">Discord</button>
-    <button class="github"onclick="window.location.href='https://github.com/AviansEpic/'">GitHub</button>
-    <button class="rick"onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">don't click this ;)</button>
-    <button class="friends"onclick="window.location.href='https://avian.lol/friends.html'">Friends</button>
-</head>
-<body>
-    <link rel="stylesheet" href="styles.css">
-    <header>
-        <h1>Avian's Site</h1>
-        <h2>Developer of many projects, and still developing</h2>
-    </header>
+h1 {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-    <h2>FAQ</h2>
-    <h3>What do I do?</h3>
-    <h4>I am a developer. I currently code in several languages.</h4>
-    <h3>What languages do you know?</h3>
-    <h4>Lua, Python, JavaScript, Java, and C# but I'm not very fluent in C# or Java.</h4>
+h2 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
-</body>
-</html>
+text {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    color: rgb(240, 240, 240);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.discord, .github, .rick {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 31%;
+    
+}
+
+.discord {
+    position: absolute;
+    bottom: 0;
+    left: 20;
+}
+.github {
+    position: absolute;
+    bottom: 0;
+    left: 34%;
+}
+.rick {
+    position: absolute;
+    bottom: 0;
+    left: 68%;
+}
+
+.friends {
+    position: absolute;
+    background-color: #00ff00;
+    color: black;
+    border-color: #00ff00;
+    padding: 20px;
+    top: 20%;
+    size: 30px;
+}
