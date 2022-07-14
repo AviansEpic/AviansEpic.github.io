@@ -1,74 +1,61 @@
-h1 {
-    color: #000;
-    padding: 10px;
+body{
+    margin:0;
+    padding:0;
+    background:url(bg.jpg) no-repeat;
+    background-size:cover;
+}
+.box{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-h2 {
-    color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-text {
-    color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-h3 {
-    color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-h4 {
-    color: rgb(240, 240, 240);
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-  
-
-
-.discord, .github, .rick {
-    background-color: #4CAF50;
+    margin: auto;
+    margin-top: 5%;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 31%;
-    
+    font-family: 'Century Gothic', sans-serif;
 }
 
-.discord {
-    position: absolute;
-    bottom: 0;
-    left: 20;
-}
-.github {
-    position: absolute;
-    bottom: 0;
-    left: 34%;
-}
-.rick {
-    position: absolute;
-    bottom: 0;
-    left: 68%;
+.box-img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
 }
 
-.friends {
-    position: absolute;
-    background-color: #4CAF50;
-    color: white;
-    border-color: #4CAF50;
-    top: 1%;
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
 }
 
+.box h5 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100px
+}
 
+.box p {
+    text-align: justify;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    color:white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color: #b9b9b9
+}
